@@ -1,0 +1,9 @@
+@CleanTeeth.API_HostAddress = http://localhost:5064/api/dentaloffices
+
+POST {{CleanTeeth.API_HostAddress}}
+Accept: application/json
+
+{
+  "name" : "Dental Office A"
+}
+###

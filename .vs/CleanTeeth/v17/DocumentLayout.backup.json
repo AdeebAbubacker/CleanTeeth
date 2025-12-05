@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35D06FB2-7C3C-4615-A8A9-BABD73563183}|CleanTeethApplication\\CleanTeethApplication.csproj|c:\\users\\91884\\desktop\\dec2survive\\cleanteeth\\cleanteethapplication\\features\\dentists\\commands\\updatedentist\\updatedentistcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35D06FB2-7C3C-4615-A8A9-BABD73563183}|CleanTeethApplication\\CleanTeethApplication.csproj|solutionrelative:cleanteethapplication\\features\\dentists\\commands\\updatedentist\\updatedentistcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF601D3-452F-416C-9A48-75E435C875BF}|CleanTeeth.API\\CleanTeeth.API.csproj|c:\\users\\91884\\desktop\\dec2survive\\cleanteeth\\cleanteeth.api\\controllers\\dentistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF601D3-452F-416C-9A48-75E435C875BF}|CleanTeeth.API\\CleanTeeth.API.csproj|solutionrelative:cleanteeth.api\\controllers\\dentistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35D06FB2-7C3C-4615-A8A9-BABD73563183}|CleanTeethApplication\\CleanTeethApplication.csproj|c:\\users\\91884\\desktop\\dec2survive\\cleanteeth\\cleanteethapplication\\features\\dentists\\commands\\updatedentist\\updatedentistcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35D06FB2-7C3C-4615-A8A9-BABD73563183}|CleanTeethApplication\\CleanTeethApplication.csproj|solutionrelative:cleanteethapplication\\features\\dentists\\commands\\updatedentist\\updatedentistcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35D06FB2-7C3C-4615-A8A9-BABD73563183}|CleanTeethApplication\\CleanTeethApplication.csproj|c:\\users\\91884\\desktop\\dec2survive\\cleanteeth\\cleanteethapplication\\features\\dentists\\commands\\updatedentist\\updatedentistcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35D06FB2-7C3C-4615-A8A9-BABD73563183}|CleanTeethApplication\\CleanTeethApplication.csproj|solutionrelative:cleanteethapplication\\features\\dentists\\commands\\updatedentist\\updatedentistcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF601D3-452F-416C-9A48-75E435C875BF}|CleanTeeth.API\\CleanTeeth.API.csproj|c:\\users\\91884\\desktop\\dec2survive\\cleanteeth\\cleanteeth.api\\dtos\\dentists\\updatedentistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF601D3-452F-416C-9A48-75E435C875BF}|CleanTeeth.API\\CleanTeeth.API.csproj|solutionrelative:cleanteeth.api\\dtos\\dentists\\updatedentistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35D06FB2-7C3C-4615-A8A9-BABD73563183}|CleanTeethApplication\\CleanTeethApplication.csproj|c:\\users\\91884\\desktop\\dec2survive\\cleanteeth\\cleanteethapplication\\features\\appointments\\commands\\createappointment\\mapperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35D06FB2-7C3C-4615-A8A9-BABD73563183}|CleanTeethApplication\\CleanTeethApplication.csproj|solutionrelative:cleanteethapplication\\features\\appointments\\commands\\createappointment\\mapperextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADFCC952-A01E-4D0A-A470-422A207F5F49}|CleanTeeth.Domain\\CleanTeeth.Domain.csproj|c:\\users\\91884\\desktop\\dec2survive\\cleanteeth\\cleanteeth.domain\\entities\\valueobjects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADFCC952-A01E-4D0A-A470-422A207F5F49}|CleanTeeth.Domain\\CleanTeeth.Domain.csproj|solutionrelative:cleanteeth.domain\\entities\\valueobjects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF601D3-452F-416C-9A48-75E435C875BF}|CleanTeeth.API\\CleanTeeth.API.csproj|c:\\users\\91884\\desktop\\dec2survive\\cleanteeth\\cleanteeth.api\\controllers\\appoinntmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF601D3-452F-416C-9A48-75E435C875BF}|CleanTeeth.API\\CleanTeeth.API.csproj|solutionrelative:cleanteeth.api\\controllers\\appoinntmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF601D3-452F-416C-9A48-75E435C875BF}|CleanTeeth.API\\CleanTeeth.API.csproj|c:\\users\\91884\\desktop\\dec2survive\\cleanteeth\\cleanteeth.api\\dtos\\dentaloffices\\updatedentaloffciedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF601D3-452F-416C-9A48-75E435C875BF}|CleanTeeth.API\\CleanTeeth.API.csproj|solutionrelative:cleanteeth.api\\dtos\\dentaloffices\\updatedentaloffciedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF601D3-452F-416C-9A48-75E435C875BF}|CleanTeeth.API\\CleanTeeth.API.csproj|c:\\users\\91884\\desktop\\dec2survive\\cleanteeth\\cleanteeth.api\\dtos\\dentaloffices\\createdentalofficedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF601D3-452F-416C-9A48-75E435C875BF}|CleanTeeth.API\\CleanTeeth.API.csproj|solutionrelative:cleanteeth.api\\dtos\\dentaloffices\\createdentalofficedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF601D3-452F-416C-9A48-75E435C875BF}|CleanTeeth.API\\CleanTeeth.API.csproj|c:\\users\\91884\\desktop\\dec2survive\\cleanteeth\\cleanteeth.api\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF601D3-452F-416C-9A48-75E435C875BF}|CleanTeeth.API\\CleanTeeth.API.csproj|solutionrelative:cleanteeth.api\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 201,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DentistController.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeeth.API\\Controllers\\DentistController.cs",
+              "RelativeDocumentMoniker": "CleanTeeth.API\\Controllers\\DentistController.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeeth.API\\Controllers\\DentistController.cs",
+              "RelativeToolTip": "CleanTeeth.API\\Controllers\\DentistController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAArwEMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T22:49:15.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateDentistCommand.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeethApplication\\Features\\Dentists\\Commands\\UpdateDentist\\UpdateDentistCommand.cs",
+              "RelativeDocumentMoniker": "CleanTeethApplication\\Features\\Dentists\\Commands\\UpdateDentist\\UpdateDentistCommand.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeethApplication\\Features\\Dentists\\Commands\\UpdateDentist\\UpdateDentistCommand.cs",
+              "RelativeToolTip": "CleanTeethApplication\\Features\\Dentists\\Commands\\UpdateDentist\\UpdateDentistCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T22:51:46.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateDentistCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeethApplication\\Features\\Dentists\\Commands\\UpdateDentist\\UpdateDentistCommandHandler.cs",
+              "RelativeDocumentMoniker": "CleanTeethApplication\\Features\\Dentists\\Commands\\UpdateDentist\\UpdateDentistCommandHandler.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeethApplication\\Features\\Dentists\\Commands\\UpdateDentist\\UpdateDentistCommandHandler.cs",
+              "RelativeToolTip": "CleanTeethApplication\\Features\\Dentists\\Commands\\UpdateDentist\\UpdateDentistCommandHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAnwCIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T22:52:11.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateDentistCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeethApplication\\Features\\Dentists\\Commands\\UpdateDentist\\UpdateDentistCommandValidator.cs",
+              "RelativeDocumentMoniker": "CleanTeethApplication\\Features\\Dentists\\Commands\\UpdateDentist\\UpdateDentistCommandValidator.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeethApplication\\Features\\Dentists\\Commands\\UpdateDentist\\UpdateDentistCommandValidator.cs",
+              "RelativeToolTip": "CleanTeethApplication\\Features\\Dentists\\Commands\\UpdateDentist\\UpdateDentistCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T22:53:52.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateDentistDTO.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeeth.API\\DTOs\\Dentists\\UpdateDentistDTO.cs",
+              "RelativeDocumentMoniker": "CleanTeeth.API\\DTOs\\Dentists\\UpdateDentistDTO.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeeth.API\\DTOs\\Dentists\\UpdateDentistDTO.cs",
+              "RelativeToolTip": "CleanTeeth.API\\DTOs\\Dentists\\UpdateDentistDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T22:50:25.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MapperExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeethApplication\\Features\\Appointments\\Commands\\CreateAppointment\\MapperExtensions.cs",
+              "RelativeDocumentMoniker": "CleanTeethApplication\\Features\\Appointments\\Commands\\CreateAppointment\\MapperExtensions.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeethApplication\\Features\\Appointments\\Commands\\CreateAppointment\\MapperExtensions.cs",
+              "RelativeToolTip": "CleanTeethApplication\\Features\\Appointments\\Commands\\CreateAppointment\\MapperExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAvwBMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:01:56.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Email.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeeth.Domain\\Entities\\ValueObjects\\Email.cs",
+              "RelativeDocumentMoniker": "CleanTeeth.Domain\\Entities\\ValueObjects\\Email.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeeth.Domain\\Entities\\ValueObjects\\Email.cs",
+              "RelativeToolTip": "CleanTeeth.Domain\\Entities\\ValueObjects\\Email.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T22:54:39.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppoinntmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeeth.API\\Controllers\\AppoinntmentsController.cs",
+              "RelativeDocumentMoniker": "CleanTeeth.API\\Controllers\\AppoinntmentsController.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeeth.API\\Controllers\\AppoinntmentsController.cs",
+              "RelativeToolTip": "CleanTeeth.API\\Controllers\\AppoinntmentsController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:01:36.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateDentalOfficeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeeth.API\\DTOs\\DentalOffices\\CreateDentalOfficeDTO.cs",
+              "RelativeDocumentMoniker": "CleanTeeth.API\\DTOs\\DentalOffices\\CreateDentalOfficeDTO.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeeth.API\\DTOs\\DentalOffices\\CreateDentalOfficeDTO.cs",
+              "RelativeToolTip": "CleanTeeth.API\\DTOs\\DentalOffices\\CreateDentalOfficeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T23:01:33.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateDentalOffcieDTO.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeeth.API\\DTOs\\DentalOffices\\UpdateDentalOffcieDTO.cs",
+              "RelativeDocumentMoniker": "CleanTeeth.API\\DTOs\\DentalOffices\\UpdateDentalOffcieDTO.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeeth.API\\DTOs\\DentalOffices\\UpdateDentalOffcieDTO.cs",
+              "RelativeToolTip": "CleanTeeth.API\\DTOs\\DentalOffices\\UpdateDentalOffcieDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T22:50:00.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PatientsController.cs",
+              "DocumentMoniker": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeeth.API\\Controllers\\PatientsController.cs",
+              "RelativeDocumentMoniker": "CleanTeeth.API\\Controllers\\PatientsController.cs",
+              "ToolTip": "C:\\Users\\91884\\Desktop\\Dec2survive\\CleanTeeth\\CleanTeeth.API\\Controllers\\PatientsController.cs",
+              "RelativeToolTip": "CleanTeeth.API\\Controllers\\PatientsController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA5wDMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T22:49:19.993Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
