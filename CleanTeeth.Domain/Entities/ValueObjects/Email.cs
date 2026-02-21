@@ -8,7 +8,7 @@ namespace CleanTeeth.Domain.Entities.ValueObjects
 {
     public record Email
     {
-        public String Value { get; } = null!;
+        public String Value { get; private set; } = null!;
 
         private Email() { }
         public Email(String email)

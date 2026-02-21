@@ -1,4 +1,6 @@
-﻿using CleanTeethApplication.Features.DentalOffices.Commands.CreateDentalOffice;
+﻿using CleanTeethApplication.Contracts.Auth;
+using CleanTeethApplication.Features.Auth.Services;
+using CleanTeethApplication.Features.DentalOffices.Commands.CreateDentalOffice;
 using CleanTeethApplication.Features.DentalOffices.Commands.DeleteDentalOffice;
 using CleanTeethApplication.Features.DentalOffices.Commands.UpdateDentalOffice;
 using CleanTeethApplication.Features.DentalOffices.Queries.GetDentalOfficeDetail;
@@ -17,6 +19,7 @@ namespace CleanTeethApplication
     {
         public static IServiceCollection AddApplicationServices(this IServiceCollection services) { 
             services.AddTransient<IMediator,SimpleMediator>();
+            services.AddScoped<IAuthService, AuthService>();
 
             //scanning all classes in application layer and adding to di system instead of below manual method
             //for this we use package called Scrutor

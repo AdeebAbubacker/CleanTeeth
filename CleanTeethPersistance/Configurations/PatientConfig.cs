@@ -14,7 +14,7 @@ namespace CleanTeethPersistance.Configurations
         public void Configure(EntityTypeBuilder<Patient> builder)
         {
             builder.Property(prop => prop.Name).HasMaxLength(250).IsRequired();
-            builder.ComplexProperty(prop => prop.Email, action =>
+            builder.OwnsOne(prop => prop.Email, action =>
             {
                 action.Property(e => e.Value).HasColumnName("Email").HasMaxLength(254);
             });

@@ -1,4 +1,6 @@
 ﻿using CleanTeeth.Domain.Entities;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,7 +11,15 @@ using System.Threading.Tasks;
 
 namespace CleanTeethPersistance
 {
-    public class CleanTeethDbContext : DbContext
+    public class ApplicationUser : IdentityUser
+    {
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
+        public string? RefreshToken { get; set; }
+        public DateTime? RefreshTokenExpiryTime { get; set; }
+    }
+
+    public class CleanTeethDbContext : IdentityDbContext<ApplicationUser>
     {
         public CleanTeethDbContext(DbContextOptions options) : base(options)
         {

@@ -1,6 +1,7 @@
 ﻿using CleanTeeth.API.DTOs.DentalOffices;
 using CleanTeeth.API.DTOs.Dentists;
 using CleanTeeth.API.DTOs.Patients;
+using CleanTeethApplication.Common.Response;
 using CleanTeethApplication.Features.DentalOffices.Commands.CreateDentalOffice;
 using CleanTeethApplication.Features.DentalOffices.Commands.DeleteDentalOffice;
 using CleanTeethApplication.Features.DentalOffices.Commands.UpdateDentalOffice;
@@ -17,62 +18,109 @@ using CleanTeethApplication.Features.Patients.Commands.DeletePatient;
 using CleanTeethApplication.Features.Patients.Commands.UpdatePatient;
 using CleanTeethApplication.Features.Patients.Queries.GetPatientDetail;
 using CleanTeethApplication.Utilities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+
 namespace CleanTeeth.API.Controllers
 {
+    /// <summary>
+    /// API endpoints for managing dentists
+    /// </summary>
     [ApiController]
     [Route("api/dentist")]
-    public class DentistController : ControllerBase
+    [Authorize]
+    public class DentistController : BaseController
     {
-        private readonly IMediator mediator;
+        private readonly IMediator _mediator;
 
-        public DentistController(IMediator mediator)
+        public DentistController(IMediator mediator, ILogger<DentistController> logger) : base(logger)
         {
-            this.mediator = mediator;
+            _mediator = mediator;
         }
+
+        /// <summary>
+        /// Get all dentists
+        /// </summary>
         [HttpGet]
-        public async Task<ActionResult<List<GetDentistListDTO>>> Get()
+        public Task<ActionResult<ApiResponse<List<GetDentistListDTO>>>> Get()
         {
             var query = new GetDentistListQuery();
-            var result = await mediator.Send(query);
-            return result;
+            return HandleQueryAsync(_mediator, query, "Dentists retrieved successfully");
         }
 
+        /// <summary>
+        /// Get a specific dentist by ID
+        /// </summary>
         [HttpGet("{id}")]
-        public async Task<ActionResult<GetDentistDetailDTO>> Get(Guid id)
+        public async Task<ActionResult<ApiResponse<GetDentistDetailDTO>>> Get(Guid id)
         {
+            if (id == Guid.Empty)
+            {
+                return BadRequestResponse("Invalid dentist ID");
+            }
+
             var query = new GetDentistDetailQuery { Id = id };
-            return await mediator.Send(query);
+            return await HandleQueryAsync(_mediator, query, "Dentist retrieved successfully");
         }
 
+        /// <summary>
+        /// Delete a dentist
+        /// </summary>
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(Guid id)
+        public async Task<ActionResult> Delete(Guid id)
         {
+            if (id == Guid.Empty)
+            {
+                return BadRequestResponse("Invalid dentist ID");
+            }
+
             var command = new DeleteDentistCommand { Id = id };
-            await mediator.Send(command);
-            return NoContent();
+            return await HandleCommandAsync(_mediator, command, "Dentist deleted successfully");
         }
 
+        /// <summary>
+        /// Create a new dentist
+        /// </summary>
         [HttpPost]
-        public async Task<IActionResult> Post(CreateDentistDTO createDentalOfficeDTO)
+        public async Task<ActionResult<ApiResponse<object>>> Post([FromBody] CreateDentistDTO createDentistDTO)
         {
-            var command = new CreateDentistCommand { Name = createDentalOfficeDTO.Name,Email = createDentalOfficeDTO.Email };
-            await mediator.Send(command);
-            return Ok();
+            if (string.IsNullOrWhiteSpace(createDentistDTO.Name))
+            {
+                return BadRequestResponse("Dentist name is required");
+            }
+
+            var command = new CreateDentistCommand
+            {
+                Name = createDentistDTO.Name,
+                Email = createDentistDTO.Email
+            };
+            return await HandleCreatedCommandAsync(_mediator, command, "Dentist created successfully");
         }
 
+        /// <summary>
+        /// Update a dentist
+        /// </summary>
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(Guid id, UpdateDentistDTO updatePatientDTO)
+        public async Task<ActionResult> Put(Guid id, [FromBody] UpdateDentistDTO updateDentistDTO)
         {
+            if (id == Guid.Empty)
+            {
+                return BadRequestResponse("Invalid dentist ID");
+            }
+
+            if (string.IsNullOrWhiteSpace(updateDentistDTO.Name))
+            {
+                return BadRequestResponse("Dentist name is required");
+            }
+
             var command = new UpdateDentistCommand
             {
                 Id = id,
-                Name = updatePatientDTO.Name,
-                email = updatePatientDTO.email
+                Name = updateDentistDTO.Name,
+                email = updateDentistDTO.email
             };
-            await mediator.Send(command);
-            return NoContent();
+            return await HandleCommandAsync(_mediator, command, "Dentist updated successfully");
         }
     }
 }
